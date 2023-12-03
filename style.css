@@ -8,6 +8,10 @@
     --black-color: #212121;
 }
 
+body {
+    font-family: var(--robot-font);
+}
+
  
  
  .grey-section {
@@ -46,4 +50,13 @@
  .btn-item {
     font-family: var(--robot-font);
  }
+
+
+.foot {
+    background-color: #2F303A;
+}
+
+foot~li {
+    /* color: #FFFFFF;   dont work */
+}
 
