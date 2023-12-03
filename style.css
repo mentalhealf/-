@@ -52,11 +52,11 @@ body {
  }
 
 
-.foot {
+.footer {
     background-color: #2F303A;
 }
 
-foot~li {
+.footer~li {
     /* color: #FFFFFF;   dont work */
 }
 
