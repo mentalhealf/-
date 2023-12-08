@@ -6,16 +6,29 @@
     --dark-white: #F5F4FA;
     --robot-font: 'Roboto', sans-serif;
     --black-color: #212121;
+    --logo-font:'Raleway', sans-serif;
+
 }
 
 body {
     font-family: var(--robot-font);
 }
 
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
  
  
  .grey-section {
      background-color:var(--background-grey);
+     padding-top: 200px;
+     padding-bottom: 280px;
+     text-align: center;
+     color: #FFFFFF;
+
  }
  
  .btn-order {
@@ -58,3 +71,41 @@ body {
 
 /*  */
 
+
+.footer-logo {
+    color: var(--white-color);
+    font-family: var(--logo-font);
+    font-size: 26px;
+}
+
+.footer-text {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: var(--logo-font);
+    font-size: 26px;
+}
+
+
+.text {
+    color: var(--white-color);
+}
+
+.section-list {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.section-photos {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.section-team {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.section-portfolio {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
