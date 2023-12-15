@@ -33,6 +33,7 @@ body {
  
  .btn-order {
      background-color:var(--accent-color) ;
+     color: var(--white-color);
  }
 
  li {
@@ -43,7 +44,7 @@ body {
  
  .link-item {
      text-decoration: none;
-     color: var(--black-color);
+     color:var(--ghost-color);
      
     }
 .link-item:hover {
@@ -62,6 +63,7 @@ body {
 
  .btn-item {
     font-family: var(--robot-font);
+    color:var(--white-color)
  }
 
 
@@ -76,6 +78,7 @@ body {
     color: var(--white-color);
     font-family: var(--logo-font);
     font-size: 26px;
+    
 }
 
 .footer-text {
@@ -83,6 +86,7 @@ body {
     text-decoration: none;
     font-family: var(--logo-font);
     font-size: 26px;
+    
 }
 
 
@@ -109,3 +113,58 @@ body {
     margin-top: 94px;
     margin-bottom: 94px;
 }
+
+
+.header {
+    display: flex;
+
+}
+
+
+.header-list {
+    display: flex;
+  gap: 50px;
+} 
+
+
+.header-contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+
+.logo {
+    margin-top: 12.1px;
+}
+
+
+.about-list {
+    display: flex;
+    gap: 30px;
+}
+
+.about-item {
+    max-width: 270px;
+    /* max-height: 72px; */
+}
+.company-list {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.our-team {
+    display: flex;
+    gap: 30px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+.footer-list {
+    padding-left: 0;
+}
+
