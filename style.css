@@ -148,6 +148,11 @@ li {
     left: 25px;
 }
 
+.label {
+    position: relative;
+    top: -76px;
+}
+
 .team-item {
     width: 270px;
     height: 407px;
