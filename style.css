@@ -85,7 +85,29 @@ li {
 
 
 .active {
-    color: var(--accent-color)
+    color:var(--accent-color)
+
+}
+.active-portfolio {
+    color:var(--accent-color);
+    text-decoration: none;
+    
+}
+.active::after {
+    content:"";
+    width: 47px;
+    height: 4px;
+    background-color: #2196F3;
+    z-index: 5;
+    display: block;
+}
+.active-portfolio::after {
+    content:"";
+    width: 79px;
+    height: 4px;
+    background-color: #2196F3;
+    z-index: 5;
+    display: block;
 }
 
 
