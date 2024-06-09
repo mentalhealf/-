@@ -71,6 +71,9 @@ li {
 .link-item {
     text-decoration: none;
     color: var(--ghost-color);
+    transition-property: color;
+    transition-duration: 251ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
 
 }
 
@@ -276,6 +279,9 @@ li {
     border-radius: 4px;
     background: rgb(245, 244, 250);
     border: none;
+    transition-property: color;
+    transition-duration: 251ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .btn-item-section:hover {
