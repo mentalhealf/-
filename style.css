@@ -21,6 +21,7 @@ body {
 }
 
 
+/* grey-section start */
 
 .grey-section {
     background-color: var(--background-grey);
@@ -33,7 +34,7 @@ body {
     color: #FFFFFF;
 }
 
-.efect-sugestions {
+.grey-section__title {
     color: rgb(255, 255, 255);
     font-family: Roboto;
     font-size: 44px;
@@ -44,7 +45,7 @@ body {
     text-transform: uppercase;
 }
 
-.btn-order {
+.grey-section__btn {
     background-color: var(--accent-color);
     color: var(--white-color);
     color: rgb(255, 255, 255);
