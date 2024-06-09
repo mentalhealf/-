@@ -15,6 +15,7 @@ body {
 }
 
 
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -326,6 +327,84 @@ li {
 
 .image-h3 {
     padding-left: 24px;
+}
+
+.clients-mobile {
+    display: none;
+}
+
+@media (max-width: 436px) {
+    .container {
+        max-width: 436px;
+    }
+
+    .our-team {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .company-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Social-png {
+        position: relative;
+        left: -64px;
+    }
+
+    .Social-ink {
+        max-width: 420px;
+    }
+
+    .clients-mobile {
+        display: block;
+    }
+
+    .clients-desktop {
+        display: none;
+    }
+
+    .about-list {
+        flex-direction: column;
+    }
+
+    .header-list {
+        flex-direction: column;
+    }
+
+    .header-contacts {
+        flex-direction: column;
+    }
+
+    .image-list {
+        margin-left: 31px;
+    }
+
+    .btn-list {
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .btn-item {
+        width: 260px;
+        text-align: center;
+    }
+
+    .btn-item-section:hover {
+        background-color: #2196F3;
+        color: var(--white-color);
+        cursor: pointer;
+        width: 260px;
+    }
+
 }
 
 
