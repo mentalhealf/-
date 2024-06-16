@@ -333,6 +333,93 @@ li {
     display: none;
 }
 
+@media (min-width: 437px) and (max-width: 1198px) {
+    .container {
+        max-width: 1198px;
+    }
+
+    .header {
+        width: 1100;
+    }
+
+    .our-team {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .company-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Social-png {
+        position: relative;
+        left: -64px;
+    }
+
+    .Social-ink {
+        max-width: 1178px;
+    }
+
+    .clients-mobile {
+        display: block;
+    }
+
+    .clients-desktop {
+        display: none;
+    }
+
+    .about-list {
+        flex-direction: row;
+    }
+
+    .header-list {
+        flex-direction: row;
+    }
+
+    .header-contacts {
+        flex-direction: row;
+        position: relative;
+        left: -119px;
+    }
+
+    .image-list {
+        /* margin-left: 31px; */
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 770px;
+    }
+
+    .btn-list {
+        /* flex-direction: column; */
+        margin-left: 100px;
+        margin: 0 auto;
+    }
+
+    .btn-item {
+        width: 260px;
+        text-align: center;
+    }
+
+    .btn-item-section:hover {
+        background-color: #2196F3;
+        color: var(--white-color);
+        cursor: pointer;
+        width: 260px;
+    }
+
+}
+
+
+
 @media (max-width: 436px) {
     .container {
         max-width: 436px;
@@ -406,6 +493,7 @@ li {
     }
 
 }
+
 
 
 /* 
